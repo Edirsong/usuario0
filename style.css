@@ -80,6 +80,17 @@ input:valid ~ label {
     right: 8px;
 }
 
+
+
+/*agregado*/
+
+
+
+/* hasta aca*/
+
+
+
+
 .olvidar {
     margin: -15px 0 15px;
     font-size: .9em;
@@ -132,4 +143,17 @@ button:hover{
 }
 .registrar p a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 425px) {
+    .contenedor {
+        width: 90%;
+        height: auto;
+    }
+
+    .input-contenedor {
+        width: 90%;
+    }
+
+    /* Add more adjustments as needed */
 }
